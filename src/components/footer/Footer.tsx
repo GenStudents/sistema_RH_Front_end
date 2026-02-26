@@ -92,7 +92,6 @@ function Footer() {
             { component }
         </>
     );
-}
 
 export default Footer;
 
