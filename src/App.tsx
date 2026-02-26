@@ -7,10 +7,11 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <div className="flex min-h-screen flex-col"></div>
       <Navbar/>
       <div className='min-[80vh]'>
       <Routes>
-        <Route/>
+        <Route path="/" element={<div>Conteúdo da Home</div>}/>
       </Routes>
       </div>
       <Footer/>
