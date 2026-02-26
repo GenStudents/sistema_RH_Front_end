@@ -1,4 +1,4 @@
 function SobreNos(){
 
 }
-export default SobreNos
+export default SobreNos;

@@ -8,7 +8,7 @@ function Home() {
             <div className=" container  mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative px-15 ">
 
                 {/* Brand Info */}
-             <div className="flex flex-col justify-center py-14 md:py-0 md:pl-10 px-6">
+                <div className="flex flex-col justify-center py-14 md:py-0 md:pl-10 px-6">
                     <div className="text-center md:text-left space-y-6">
                         <div className="inline-flex w-fit items-center gap-2 rounded-full border border-border bg-sky-50 px-4 py-1.5">
 
@@ -53,15 +53,15 @@ function Home() {
                 </div>
 
                 {/* Hero Image */}
-<div className="flex items-center justify-center">
-  <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-xl">
-    <img
-      src={HeroImg}
-      alt="Imagem de destaque do sistema de RH"
-      className="w-full max-w-[600px] h-auto object-cover"
-    />
-  </div>
-</div>
+                <div className="flex items-center justify-center">
+                    <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-xl">
+                        <img
+                            src={HeroImg}
+                            alt="Imagem de destaque do sistema de RH"
+                            className="w-full max-w-[600px] h-auto object-cover"
+                        />
+                    </div>
+                </div>
             </div>
         </section>
     );
