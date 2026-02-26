@@ -75,8 +75,7 @@ function Navbar() {
         </header>
     );
 
-    return (
-        <>
-            { component }
-        </>
-    );
+    return <>{component}</>;
+}
+
+export default Navbar;

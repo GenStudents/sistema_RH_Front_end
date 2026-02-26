@@ -86,12 +86,11 @@ function Footer() {
             </div>
         </footer>
     );
-
-    return (
-        <>
-            { component }
-        </>
-    );
+return (
+    <>
+        {component}
+    </>
+);
+}
 
 export default Footer;
-
