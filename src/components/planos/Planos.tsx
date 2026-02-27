@@ -11,24 +11,24 @@ const plans = [
     highlighted: false,
     features: [
       "5 produtos",
-      "Ate 1.000 assinantes",
-      "Analytics basico",
+      "Até 1.000 assinantes",
+      "Analytics básico",
       "Suporte em 48 horas",
     ],
   },
   {
     name: "Startup",
-    description: "Um plano que escala com seu negocio em rapido crescimento.",
+    description: "Um plano que escala com seu negócio em rápido crescimento.",
     monthlyPrice: 29,
     annualPrice: 23,
     cta: "Comprar plano",
     highlighted: false,
     features: [
       "25 produtos",
-      "Ate 10.000 assinantes",
-      "Analytics avancado",
+      "Até 10.000 assinantes",
+      "Analytics avançado",
       "Suporte em 24 horas",
-      "Automacoes de marketing",
+      "Automações de marketing",
     ],
   },
   {
@@ -36,15 +36,15 @@ const plans = [
     description: "Suporte dedicado e infraestrutura para sua empresa.",
     monthlyPrice: null,
     annualPrice: null,
-    cta: "Fale com vendas",
+    cta: "Solicite uma demonstração",
     highlighted: true,
     features: [
       "Produtos ilimitados",
-      "Assinantes ilimitados",
-      "Analytics avancado",
+      " Assinantes ilimitados ",
+      "Analytics avançado",
       "Suporte dedicado em 1 hora",
-      "Automacoes de marketing",
-      "Ferramentas de relatorios personalizados",
+      "Automações de marketing",
+      "Ferramentas de relatórios personalizados",
     ],
   },
 ];
@@ -60,7 +60,7 @@ export function Planos() {
             Preços
           </p>
           <h2 className="mt-2 font-(family-name:--font-heading) text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl text-balance">
-            Preços que crescem com você
+            Preços que crescem com você 
           </h2>
           <p className="mt-4 text-gray-700 leading-relaxed">
             Escolha um plano acessível repleto dos melhores recursos para engajar seu público, criar fidelidade e impulsionar vendas.
@@ -134,7 +134,7 @@ export function Planos() {
                         plan.highlighted ? "text-white/80" : "text-gray-500"
                       }`}
                     >
-                      /mes
+                      /mês
                     </span>
                   </div>
                 ) : (

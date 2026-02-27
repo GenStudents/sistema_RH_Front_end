@@ -3,9 +3,9 @@ import { ArrowRight, BarChart3, Briefcase, Clock, GitBranch, ShieldCheck, Users 
 const features = [
   {
     icon: Briefcase,
-    title: "Gestao de Vagas",
+    title: "Gestão de Vagas",
     description:
-      "Crie, publique e gerencie vagas em multiplas plataformas com um unico clique. Acompanhe o status de cada posicao em tempo real com um painel centralizado.",
+      "Crie, publique e gerencie vagas em múltiplas plataformas com um único clique. Acompanhe o status de cada posição em tempo real com um painel centralizado.",
   },
   {
     icon: GitBranch,
@@ -15,27 +15,27 @@ const features = [
   },
   {
     icon: Users,
-    title: "Gestao de Talentos",
+    title: "Gestão de Talentos",
     description:
-      "Acompanhe o desenvolvimento de cada colaborador. Avalie desempenho, defina metas, planeje PDIs e identifique os proximos lideres da sua organizacao.",
+      "Acompanhe o desenvolvimento de cada colaborador. Avalie desempenho, defina metas, planeje PDIs e identifique os próximos líderes da sua organização.",
   },
   {
     icon: BarChart3,
-    title: "Relatorios e Analytics",
+    title: "Relatórios e Analytics",
     description:
-      "Dashboards interativos com KPIs de RH essenciais. Tempo de contratacao, turnover, custo por contratacao e muito mais, tudo em graficos claros e acionaveis.",
+      "Dashboards interativos com KPIs de RH essenciais. Tempo de contratação, turnover, custo por contratação e muito mais, tudo em gráficos claros e acionaveis.",
   },
   {
     icon: Clock,
-    title: "Automacao de Fluxos",
+    title: "Automação de Fluxos",
     description:
-      "Configure fluxos automaticos para admissao, onboarding, ferias e desligamento. Reduza erros manuais e libere tempo para o que realmente importa: as pessoas.",
+      "Configure fluxos automáticos para admissão, onboarding, férias e desligamento. Reduza erros manuais e libere tempo para o que realmente importa: as pessoas.",
   },
   {
     icon: ShieldCheck,
     title: "Conformidade e Seguranca",
     description:
-      "Mantenha-se em conformidade com a LGPD e as regulamentacoes trabalhistas. Dados criptografados, controle de acesso granular e auditoria completa.",
+      "Mantenha-se em conformidade com a LGPD e as regulamentações trabalhistas. Dados criptografados, controle de acesso granular e auditoria completa.",
   },
 ]
 

@@ -10,7 +10,7 @@ export function Cta() {
             Pronto para transformar seu RH?
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-white/90">
-            Agende uma demonstracao gratuita e descubra como a RHConnect pode otimizar a gestao de pessoas da sua empresa.
+            Agende uma demonstração gratuita e descubra como a RHConnect pode otimizar a gestão de pessoas da sua empresa.
           </p>
           
           <div className="mt-10">

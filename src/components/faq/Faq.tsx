@@ -5,32 +5,32 @@ const faqs = [
   {
     question: "Qual o melhor plano para minha empresa?",
     answer:
-      "Depende do tamanho da sua equipe e das funcionalidades que voce precisa. O plano Freelancer e ideal para equipes pequenas, o Startup para empresas em crescimento, e o Enterprise para organizacoes que precisam de suporte dedicado e infraestrutura personalizada.",
+      "Depende do tamanho da sua equipe e das funcionalidades que você precisa. O plano Freelancer é ideal para equipes pequenas, o Startup para empresas em crescimento, e o Enterprise para organizações que precisam de suporte dedicado e infraestrutura personalizada.",
   },
   {
-    question: "Como funciona o periodo de teste gratuito?",
+    question: "Como funciona o período de teste gratuito?",
     answer:
-      "Oferecemos 14 dias de teste gratuito com acesso completo a todas as funcionalidades do plano escolhido. Nao e necessario cartao de credito para comecar. Ao final do periodo, voce pode escolher assinar ou cancelar sem custos.",
+      "Oferecemos 14 dias de teste gratuito com acesso completo a todas as funcionalidades do plano escolhido. Não é necessário cartão de crédito para começar. Ao final do período, você pode escolher assinar ou cancelar sem custos.",
   },
   {
-    question: "A RHConnect esta em conformidade com a LGPD?",
+    question: "A RHConnect está em conformidade com a LGPD?",
     answer:
-      "Sim, a RHConnect foi desenvolvida seguindo todas as diretrizes da Lei Geral de Protecao de Dados (LGPD). Todos os dados sao criptografados, oferecemos controle de acesso granular e realizamos auditorias regulares de seguranca.",
+      "Sim, a RHConnect foi desenvolvida seguindo todas as diretrizes da Lei Geral de Proteção de Dados (LGPD). Todos os dados são criptografados, oferecemos controle de acesso granular e realizamos auditorias regulares de segurança.",
   },
   {
     question: "Posso migrar meus dados de outro sistema?",
     answer:
-      "Sim! Nossa equipe de suporte auxilia na migracao de dados de outros sistemas de RH. Oferecemos importacao via CSV, API e integracoes nativas com os principais softwares do mercado.",
+      "Sim! Nossa equipe de suporte auxilia na migração de dados de outros sistemas de RH. Oferecemos importação via CSV, API e integrações nativas com os principais softwares do mercado.",
   },
   {
-    question: "Como funciona o suporte tecnico?",
+    question: "Como funciona o suporte técnico?",
     answer:
-      "O suporte varia conforme o plano. No Freelancer, o tempo de resposta e de ate 48 horas. No Startup, ate 24 horas. No Enterprise, voce conta com suporte dedicado com resposta em ate 1 hora, incluindo um gerente de conta exclusivo.",
+      "O suporte varia conforme o plano. No Freelancer, o tempo de resposta é de até 48 horas. No Startup, até 24 horas. No Enterprise, você conta com suporte dedicado com resposta em até 1 hora, incluindo um gerente de conta exclusivo.",
   },
   {
-    question: "E possivel personalizar o sistema para minha empresa?",
+    question: "É possível personalizar o sistema para minha empresa?",
     answer:
-      "Sim, especialmente no plano Enterprise. Voce pode personalizar workflows, relatorios, campos de formularios e integracoes. Nossa equipe trabalha junto com voce para adaptar a plataforma as necessidades especificas da sua organizacao.",
+      "Sim, especialmente no plano Enterprise. Você pode personalizar workflows, relatórios, campos de formulários e integrações. Nossa equipe trabalha com você para adaptar a plataforma às necessidades específicas da sua organização.",
   },
 ];
 
