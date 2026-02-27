@@ -1,73 +1,38 @@
-# React + TypeScript + Vite
+# 📊 Sistema de Gestão de RH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Sobre o Projeto e Produto
 
-Currently, two official plugins are available:
+O **Sistema de Gestão de RH** é uma plataforma desenvolvida para transformar e modernizar a forma como as empresas gerenciam seus Recursos Humanos. O produto atua como uma solução centralizada que automatiza processos operacionais, facilita a gestão de talentos e permite a tomada de decisões estratégicas embasadas em dados em tempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Principais Benefícios:
+* **Gestão de Colaboradores:** Oferece controle completo de dados, do histórico profissional e do desempenho de toda a equipe em um só lugar.
+* **Recrutamento e Seleção:** Otimiza o processo seletivo permitindo o gerenciamento eficiente de vagas e o acompanhamento próximo dos candidatos.
+* **Relatórios Estratégicos:** Fornece métricas precisas para apoiar a performance organizacional, visando melhorias significativas, como a redução no tempo de contratação e de processos operacionais.
 
-## React Compiler
+### Funcionalidades em Destaque:
+* **Gestão de Vagas:** Criação, publicação e acompanhamento do status de vagas em múltiplas plataformas através de um único painel centralizado.
+* **Pipeline de Recrutamento:** Interface intuitiva para visualizar o processo seletivo, mover candidatos entre etapas, adicionar notas e colaborar com a equipe recrutadora.
+* **Gestão de Talentos:** Ferramentas para avaliar o desempenho, definir metas, planejar os Planos de Desenvolvimento Individual (PDIs) e identificar futuros líderes.
+* **Relatórios e Analytics:** Dashboards interativos contendo KPIs vitais do setor, como tempo de contratação, custos e *turnover*.
+* **Automação de Fluxos:** Criação de fluxos automáticos para admissão, *onboarding*, agendamento de férias e processos de desligamento, reduzindo assim o trabalho manual.
+* **Conformidade e Segurança:** Sistema adaptado às regulamentações trabalhistas e LGPD, garantindo criptografia, auditoria e controle de acesso granular.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 2. Acesse o Projeto e Imagens
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+A aplicação está disponível para acesso no link oficial:  
+🔗 **[Acessar o Sistema RH (Deploy no Vercel)](https://sistema-rh-frontend.vercel.app/)**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 3. Equipe de Colaboradores
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O desenvolvimento deste produto foi realizado por um time qualificado de Desenvolvedores Full Stack:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **Alissa Sousa**
+* **Felipe Gonçalves**
+* **Fernanda Santos**
+* **Jessica Gizela**
+* **Matheus Alan**
+* **Tacila Souza**
