@@ -1,4 +1,4 @@
-const teamMembers = [
+const Equipe = [
   {
     name: "Metheus",
     role: "Desenvolvedor",
@@ -48,3 +48,4 @@ const teamMembers = [
     bio: "Desenvolvedora Full Stack em transição de carreira, com experiência prática em projetos end-to-end. Trago visão de produto e análise para transformar necessidades do negócio em soluções organizadas e focadas na experiência do usuário. Gosto de colaborar, documentar bem e evoluir continuamente.",
   },
 ]
+export default Equipe;

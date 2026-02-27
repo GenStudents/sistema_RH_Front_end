@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
 import Home from "./pages/home/Home";
-import Page from "./app/sobre/page"; // Página de Sobre Nós
+import SobreNos from "./pages/sobrenos/SobreNos";
 import Produto from "./pages/produto/Produto";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<Page />} />
+        <Route path="/sobre" element={<SobreNos />} />
         <Route path="/produto" element={<Produto />} />
       </Routes>
 
