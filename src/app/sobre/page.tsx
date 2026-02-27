@@ -1,10 +1,9 @@
-import type { Metadata } from "next"
 
 //import { Navbar } from "@/components/navbar"
 //import { Footer } from "@/components/footer"
 //import { CtaSection } from "@/components/cta-section"
 import { Target, Eye, Heart } from "lucide-react"
-import { TeamSection } from "@/components/teamMembers"
+
 
 export const metadata: Metadata = {
   title: "Sobre Nós - RH Tech",

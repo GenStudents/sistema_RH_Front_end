@@ -4,7 +4,7 @@ import Beneficios from "../../components/beneficios/Beneficios";
 
 function Home() {
     return (
-        <section className="bg-gray-50">
+        <section className="bg-gray-50 pt-24">
 
             <div className=" container  mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative px-15 ">
 
@@ -18,7 +18,7 @@ function Home() {
                             </span>
                         </div>
 
-                        <h1 className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-normal">
+                        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight">
                             Transforme a forma como sua empresa gerencia{" "}
                             <span className="text-sky-700">RH</span>
                         </h1>
