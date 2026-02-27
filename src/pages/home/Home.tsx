@@ -29,8 +29,7 @@ function Home() {
                         </p>
                         {/* buttons */}
                         <div className="flex justify-center gap-8 md:justify-start">
-                            <button className="bg-sky-950 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center gap-2">
-
+                            <button className=" bg-[#0f3460] hover:bg-[#1a4a80] text-white font-medium py-2 px-6 rounded-lg transition-all flex items-center gap-2">
                                 Solicitar Demo
                                 <ArrowRight size={15} />
                             </button>
