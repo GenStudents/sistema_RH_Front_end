@@ -13,7 +13,7 @@ function Home() {
                     <div className="text-center md:text-left space-y-6">
                         <div className="inline-flex w-fit items-center gap-2 rounded-full border border-border bg-sky-50 px-4 py-1.5">
 
-                            <span className="text-1xs text-gray-600 font-medium text-muted-foreground">
+                            <span className="text-1xs text-[#555555] font-medium text-muted-foreground">
                                 Plataforma #1 em Gestao de RH
                             </span>
                         </div>
@@ -23,28 +23,27 @@ function Home() {
                             <span className="text-sky-700">RH</span>
                         </h1>
 
-                        <p className="text-gray-600 xl:max-w-[500px]">
+                        <p className="text-[#555555] xl:max-w-[500px]">
                             Automatize processos, gerencie talentos e tome decisões estratégicas
                             com dados em tempo real. Tudo em uma única plataforma.
                         </p>
                         {/* buttons */}
                         <div className="flex justify-center gap-8 md:justify-start">
-                            <button className="bg-sky-950 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center gap-2">
-
+                            <button className=" bg-[#0f3460] hover:bg-[#1a4a80] text-white font-medium py-2 px-6 rounded-lg transition-all flex items-center gap-2">
                                 Solicitar Demo
                                 <ArrowRight size={15} />
                             </button>
-                            <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300">
+                            <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium py-2 px-6 rounded-lg transition-all flex items-center gap-2">
                                 Conhecer Produto
                             </button>
                         </div>
                         {/* */}
-                        <div className="flex justify-center gap-14 md:justify-start">
-                            <span className="text-gray-600 text-sm ">
+                        <div className="flex justify-center gap-10 md:justify-start pt-4">
+                            <span className="text-[#555555] text-sm ">
                                 <Check size={14} className="inline mr-1 text-sky-500" />
                                 Sem cartão de crédito
                             </span>
-                            <span className="text-gray-600 text-sm ">
+                            <span className="text-[#555555] text-sm ">
                                 <Check size={14} className="inline mr-1 text-sky-500" />
                                 14 dias de teste grátis
                             </span>
