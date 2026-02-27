@@ -1,5 +1,6 @@
 import { ArrowRight, Check } from "lucide-react"
 import HeroImg from '../../assets/Hero.png'
+import Beneficios from "../../components/beneficios/Beneficios";
 
 function Home() {
     return (
@@ -63,6 +64,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Beneficios />
         </section>
     );
 }
