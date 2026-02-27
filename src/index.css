@@ -1,1 +1,125 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+/* Variables para temas */
+:root {
+  --bg-background: #ffffff;
+  --bg-card: #f8f9fa;
+  --text-foreground: #1a1a1a;
+  --text-muted: #666666;
+  --border-color: #e0e0e0;
+  --accent-color: #3b82f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-background: #0f172a;
+    --bg-card: #1e293b;
+    --text-foreground: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border-color: #334155;
+    --accent-color: #60a5fa;
+  }
+}
+
+/* Animações personalizadas */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Classes de animação reutilizáveis */
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Estilos globais */
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-background);
+  color: var(--text-foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Scroll bar customizado */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+  opacity: 0.8;
+}
