@@ -10,17 +10,6 @@
   --accent-color: #3b82f6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-background: #0f172a;
-    --bg-card: #1e293b;
-    --text-foreground: #f1f5f9;
-    --text-muted: #94a3b8;
-    --border-color: #334155;
-    --accent-color: #60a5fa;
-  }
-}
-
 /* Animações personalizadas */
 @keyframes fadeInUp {
   from {

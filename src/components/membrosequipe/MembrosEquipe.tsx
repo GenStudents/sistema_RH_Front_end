@@ -10,11 +10,11 @@ export default function MembrosEquipe() {
   }, []);
 
   return (
-    <section className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 py-20 md:py-28">
+    <section className="bg-gradient-to-br from-slate-50 to-slate-100 py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         {/* Header da seção */}
         <div className="mx-auto mb-16 max-w-2xl text-center">
-          <p className={`mb-3 text-sm font-semibold uppercase tracking-widest text-blue-600 dark:text-blue-400 transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
+          <p className={`mb-3 text-sm font-semibold uppercase tracking-widest text-blue-600 transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             Conheça o time
           </p>
 
@@ -33,12 +33,12 @@ export default function MembrosEquipe() {
           {teamMembers.map((member, index) => (
             <div
               key={member.name}
-              className={`group rounded-2xl border-2 border-blue-200 dark:border-blue-900 p-8 bg-white dark:bg-slate-800 hover:shadow-2xl hover:scale-105 transition-all duration-500 cursor-pointer flex flex-col ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+              className={`group rounded-2xl border-2 border-blue-200 p-8 bg-white hover:shadow-2xl hover:scale-105 transition-all duration-500 cursor-pointer flex flex-col ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Photo */}
               <div className="flex justify-center mb-6">
-                <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-blue-400 dark:border-blue-600 group-hover:animate-pulse-glow">
+                <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-blue-400 group-hover:animate-pulse-glow">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -49,10 +49,10 @@ export default function MembrosEquipe() {
 
               {/* Name and Role */}
               <div className="text-center mb-4">
-                <h3 className="text-xl font-semibold text-foreground group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                <h3 className="text-xl font-semibold text-foreground group-hover:text-blue-600 transition-colors">
                   {member.name}
                 </h3>
-                <p className="text-sm font-medium text-blue-600 dark:text-blue-400 mt-1">
+                <p className="text-sm font-medium text-blue-600 mt-1">
                   {member.role}
                 </p>
               </div>
@@ -63,12 +63,12 @@ export default function MembrosEquipe() {
               </p>
 
               {/* Social Links */}
-              <div className="flex justify-center gap-4 mt-6 pt-6 border-t border-blue-200 dark:border-blue-900">
+              <div className="flex justify-center gap-4 mt-6 pt-6 border-t border-blue-200">
                 <a
                   href={member.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 hover:bg-blue-600 dark:hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-125"
+                  className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-125"
                   aria-label={`GitHub de ${member.name}`}
                   title="GitHub"
                 >
@@ -78,7 +78,7 @@ export default function MembrosEquipe() {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 hover:bg-blue-600 dark:hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-125"
+                  className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-125"
                   aria-label={`LinkedIn de ${member.name}`}
                   title="LinkedIn"
                 >
