@@ -10,10 +10,10 @@ export function BannerProduto() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className=" text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
-            Transforme a gestao de pessoas da sua empresa
+            Transforme a gestão de pessoas da sua empresa
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            A RHConnect centraliza recrutamento, gestao de talentos e analytics em uma unica plataforma intuitiva. Simplifique processos e foque no que realmente importa: as pessoas.
+            A RHConnect centraliza recrutamento, gestão de talentos e analytics em uma única plataforma intuitiva. Simplifique processos e foque no que realmente importa: as pessoas.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
